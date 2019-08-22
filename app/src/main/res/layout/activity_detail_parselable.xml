@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetailParselable">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/D_Name"
+        android:layout_alignBottom="@+id/D_Name"
+        android:text="Name" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tv_det_name"
+        android:hint="Name Shown Here " />
+
+
+
+    <TextView
+        android:layout_marginTop="@dimen/actvity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/D_Roll"
+        android:text="Age" />
+
+    <TextView
+        android:id="@+id/tv_det_Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/D_Name"
+        android:hint="Age Shown Here " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/actvity_vertical_margin"
+        android:text="Roll Number" />
+
+    <TextView
+        android:id="@+id/tv_det_roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Class Shown Here " />
+
+</LinearLayout>

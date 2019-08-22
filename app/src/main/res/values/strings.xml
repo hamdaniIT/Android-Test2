@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test2</string>
+    <string name="move_activity_withot_data">Move Activity withot data</string>
+    <string name="move_activity_with_data">Move activity with data</string>
+    <string name="move_with_object">Move With Object</string>
+    <string name="dial_number">Dial Number</string>
+    <string name="intent_with_result">Intent With Result</string>
+</resources>
