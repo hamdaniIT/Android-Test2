@@ -18,6 +18,7 @@ public class DetailParselable extends AppCompatActivity {
         tvName =findViewById(R.id.tv_det_name);
         tvRool=findViewById(R.id.tv_det_roll);
         tvAge=findViewById(R.id.tv_det_Age);
+        setTitle("Intent Using Parselable");
 
         Intent intent=getIntent();
         student=intent.getParcelableExtra(EXTRA_DATA);
